@@ -1,0 +1,19 @@
+{
+  "name": "coursera-product-catalogue",
+  "version": "1.0.0",
+  "description": "Node.js product catalogue REST API teaching project",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --forceExit",
+    "bdd": "cucumber-js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "@cucumber/cucumber": "^10.0.0"
+  }
+}
